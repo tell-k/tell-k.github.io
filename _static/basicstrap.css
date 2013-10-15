@@ -40,6 +40,86 @@ div.tip p.admonition-title:before {
   content: "\f0eb";
 }
 
+
+table.docutils th,
+table.docutils td {
+  border-top: 1px solid ;
+}
+table.docutils tbody + tbody {
+  border-top: 2px solid ;
+}
+table.docutils {
+  border: none;
+  border-top: 1px solid ;
+  border-right: 1px solid ;
+  border-bottom: 1px solid ;
+}
+table.docutils th,
+table.docutils td {
+  border-left: 1px solid ;
+}
+
+table.docutils tbody tr:nth-child(odd) td,
+table.docutils tbody tr:nth-child(odd) th {
+  background-color: ;
+}
+
+table.docutils tbody tr:hover td,
+table.docutils tbody tr:hover th {
+  background-color: ;
+}
+table.docutils.field-list {
+  border: none;
+}
+
+
+/* -- admonition -- */
+div.admonition {
+  color: ;
+  background-color: ;
+  border-color: ;
+}
+
+/* -- danger, error -- */
+div.danger,
+div.error {
+  color: ;
+  background-color: ;
+  border-color: ;
+}
+
+/* -- warning, caution, attention -- */
+div.warning,
+div.caution,
+div.attention {
+  color: ;
+  background-color: ;
+  border-color: ;
+}
+
+/* -- note, important -- */
+div.note,
+div.important {
+  color: ;
+  background-color: ;
+  border-color: ;
+}
+
+/* -- hint, tip -- */
+div.hint,
+div.tip {
+  color: ;
+  background-color: ;
+  border-color: ;
+}
+
+div.topic {
+  background-color: ;
+  border-color: ;
+}
+
+
+
 /* for mobile */
 @media (max-width: 480px) {
   a.brand {

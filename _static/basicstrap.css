@@ -39,7 +39,7 @@ div.hint p.admonition-title:before,
 div.tip p.admonition-title:before {
   content: "\f0eb";
 }
-h1 { font-size: 15px; }
+h1 { font-size: 1.0em; }
 
 
     

@@ -1,6 +1,6 @@
 :orphan:
 
-<a href="http://tell-k.github.io/#disqus_thread">LinkTest</a>
+`LinkText <http://tell-k.github.io/#disqus_thread>`_
 
 .. raw:: html
 

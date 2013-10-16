@@ -1,4 +1,6 @@
-:orphan: 
+:orphan:
+
+<a href="http://tell-k.github.io/#disqus_thread">LinkTest</a>
 
 .. raw:: html
 

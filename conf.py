@@ -107,12 +107,12 @@ html_theme_options = {
     'inner_theme_name': 'bootswatch-flatly',
     'header_inverse': True,
     'relbar_inverse': True,
-    'h1_size': "1.8em",
-    'h2_size': "1.4em",
-    'h3_size': "1.3em",
-    'h4_size': "1.2em",
-    'h5_size': "1.1em",
-    'h6_size': "1.0em",
+   #'h1_size': "1.8em",
+   #'h2_size': "1.4em",
+   #'h3_size': "1.2em",
+   #'h4_size': "1.1em",
+   #'h5_size': "1.0em",
+   #'h6_size': "1.0em",
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -257,3 +257,7 @@ texinfo_documents = [
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
+
+def setup(app):
+    app.add_stylesheet('custom.css')
+

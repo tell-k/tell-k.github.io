@@ -48,7 +48,7 @@ div.container div.row-fluid {
 
 @media screen and (max-width: 767px){
    #Social-box {
-    width: 260px;
+    width: 255px;
     margin-right: 0;
     margin-left: 0;
     padding: 5px 0px 0px 5px;
@@ -64,6 +64,6 @@ div.container div.row-fluid {
    }
    #Social-box li.Facebook-btn{
      margin-left: 0;
-     margin-right: -20px;
+     margin-right: -25px;
    }
 }

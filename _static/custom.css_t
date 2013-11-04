@@ -54,7 +54,7 @@ div.container div.row-fluid {
     top: auto;
     left :auto;
     bottom: 5px;
-    right: 110px;
+    right: 120px;
    }
    #Social-box li{
      float: left;

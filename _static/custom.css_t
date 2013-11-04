@@ -33,6 +33,7 @@ table.docutils td {
  position: fixed;
  list-style-type: none;
  top: 60px;
+ z-index: 10000;
 }
 #Social-box li{
   margin-bottom:10px;

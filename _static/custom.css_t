@@ -58,12 +58,12 @@ div.container div.row-fluid {
     right: 5px;
    }
    #Social-box li{
-     float: left !important;
-     margin-bottom:0;
-     margin-right:0;
+     float: left;
+     margin-bottom: 0;
+     margin-right: 5px;
    }
    #Social-box li.Facebook-btn{
      margin-left: 0;
-     margin-right: 0;
+     margin-right: -10px;
    }
 }

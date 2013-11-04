@@ -105,8 +105,8 @@ html_theme_options = {
     'content_width': '900px',
     'inner_theme': True,
     'inner_theme_name': 'bootswatch-flatly',
-    'header_inverse': True,
-    'relbar_inverse': True,
+    'header_inverse': False,
+    'relbar_inverse': False,
    #'h1_size': "1.8em",
    #'h2_size': "1.4em",
    #'h3_size': "1.2em",
@@ -260,4 +260,5 @@ texinfo_documents = [
 
 def setup(app):
     app.add_stylesheet('custom.css')
+    app.add_javascript('custom.js')
 

@@ -1,15 +1,10 @@
 ================================================================
-Pythonコードのリファクタリングのお供にどーぞ的なツール
+Pythonコードのリファクタリングのお供に
 ================================================================
 
-.. rst-class:: width-adjust
-
-  :updated: 2013-11-04
-  :version: 0.1.0
-  :author: tell-k
-  :url: http://tell-k.readthedocs.org/
-
-リファクタリングの時に使いそうな、Pythonライブラリのまとめ
+:updated: 2013-11-04
+:version: 0.1.0
+:author: tell-k
 
 PyLint
 ---------------------------------------------
@@ -144,3 +139,5 @@ PyMetrics
 
 
 .. include:: /include/disqus.rst
+
+.. include:: /include/socialbox.rst

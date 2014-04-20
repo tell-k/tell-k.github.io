@@ -59,6 +59,7 @@
                     showinfo: 0,
                     modestbranding: 1,
                     loop: 1,
+                    playlist: [options.videoId],
                     wmode: 'transparent'
                 },
                 events: {

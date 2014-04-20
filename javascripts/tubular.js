@@ -20,6 +20,7 @@
         videoId: '6j73t2GjcC4', // toy robot in space is a good default, no?
         mute: true,
         repeat: true,
+        repeatTime: 59,
         width: $(window).width(),
         wrapperZIndex: 99,
         playButtonClass: 'tubular-play',
@@ -79,8 +80,9 @@
             if (state.data === 0 && options.repeat) { // video ended and repeat option is set true
                 player.seekTo(options.start); // restart
             }
-            if (state.data === 1) { // video ended and repeat option is set true
+            if (state.data === 1 && options.repeatTime === elapsed) { // video ended and repeat option is set true
                 elapsed = 0;
+                player.seekTo(options.start); // restart
             }
         }
         setInterval(function(){

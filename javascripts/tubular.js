@@ -54,10 +54,11 @@
                 height: Math.ceil(options.width / options.ratio),
                 videoId: options.videoId,
                 playerVars: {
-                	html5: 1,
+                    html5: 1,
                     controls: 0,
                     showinfo: 0,
                     modestbranding: 1,
+                    loop: 1,
                     wmode: 'transparent'
                 },
                 events: {

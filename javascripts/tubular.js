@@ -68,14 +68,14 @@
             });
         }
 
+        var elapsed = 0;
         window.onPlayerReady = function(e) {
             resize();
             if (options.mute) e.target.mute();
             e.target.seekTo(options.start);
             e.target.playVideo();
+            elapsed = 0;
         }
-
-        var elapsed = 0;
         window.onPlayerStateChange = function(state) {
             if (state.data === 0 && options.repeat) { // video ended and repeat option is set true
                 player.seekTo(options.start); // restart
@@ -85,8 +85,6 @@
             }
         }
         setInterval(function(){
-            console.log("--");
-            console.log(elapsed);
             elapsed +=1;
             if (options.repeatTime === elapsed) {
                 player.seekTo(options.start);

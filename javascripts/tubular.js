@@ -21,7 +21,7 @@
         mute: true,
         repeat: true,
         width: $(window).width(),
-        wrapperZIndex: 0,
+        wrapperZIndex: 99,
         playButtonClass: 'tubular-play',
         pauseButtonClass: 'tubular-pause',
         muteButtonClass: 'tubular-mute',

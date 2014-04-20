@@ -325,7 +325,7 @@ section {
   width:650px;
   float:right;
   padding-bottom:50px;
-  position:fixed;
+  position:relative;
 }
 
 

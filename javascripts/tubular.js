@@ -20,7 +20,7 @@
         videoId: '6j73t2GjcC4', // toy robot in space is a good default, no?
         mute: true,
         repeat: true,
-        repeatTime: 59,
+        repeatTime: 0,
         width: $(window).width(),
         wrapperZIndex: 99,
         playButtonClass: 'tubular-play',

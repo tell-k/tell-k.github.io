@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('body').tubular({
-        videoId: 'tgoH8eKQPhE',
+        videoId: '9nSlIDd4xO4',
+        repeatTime: 9,
         mute: true
     });
 });

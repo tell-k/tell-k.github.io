@@ -209,7 +209,6 @@ td {
 .wrapper {
   width:960px;
   z-index: 101;
-  color: white !important;
 }
 
 /* Header */
@@ -230,10 +229,12 @@ header {
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
+  z-index: 101;
 }
 
 p.header {
 	font-size: 16px;
+  z-index: 101;
 }
 
 h1.header {
@@ -243,6 +244,7 @@ h1.header {
 	line-height: 1.3em;
 	border-bottom: none;
 	margin-top: 0;
+  z-index: 101;
 }
 
 
@@ -252,6 +254,7 @@ h1.header, a.header, a.name, header a{
 
 a.header {
 	text-decoration: underline;
+  z-index: 101;
 }
 
 a.name {

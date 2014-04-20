@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('body').tubular({
-        videoId: 'C9CV2dnfEdU',
-        repeatTime: 50,
+        videoId: 'H9iBE4fD4f8',
+        repeatTime: 30,
         mute: true
     });
 });

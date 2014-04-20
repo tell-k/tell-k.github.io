@@ -75,6 +75,7 @@
         }
 
         window.onPlayerStateChange = function(state) {
+            console.log(data)
             if (state.data === 0 && options.repeat) { // video ended and repeat option is set true
                 player.seekTo(options.start); // restart
             }

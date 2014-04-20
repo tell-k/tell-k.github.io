@@ -209,6 +209,9 @@ td {
 .wrapper {
   width:960px;
 }
+.wrapper * {
+  z-index: 100;
+}
 
 
 /* Header */

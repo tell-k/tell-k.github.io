@@ -83,7 +83,7 @@
                 elapsed = 0;
             }
         }
-        setTimeOut(function(){
+        setTimeout(function(){
             console.log("--");
             console.log(elapsed);
             elapsed +=1;

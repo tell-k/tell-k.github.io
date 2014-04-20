@@ -28,7 +28,7 @@
         volumeUpClass: 'tubular-volume-up',
         volumeDownClass: 'tubular-volume-down',
         increaseVolumeBy: 10,
-        start: 37
+        start: 0
     };
 
     // methods
@@ -58,8 +58,6 @@
                     controls: 0,
                     showinfo: 0,
                     modestbranding: 1,
-                    loop: 1,
-                    playlist: [options.videoId],
                     wmode: 'transparent'
                 },
                 events: {
@@ -76,11 +74,20 @@
             e.target.playVideo();
         }
 
+        var elapsed = 0;
         window.onPlayerStateChange = function(state) {
-//            if (state.data === 0 && options.repeat) { // video ended and repeat option is set true
-//                player.seekTo(options.start); // restart
-//            }
+            if (state.data === 0 && options.repeat) { // video ended and repeat option is set true
+                player.seekTo(options.start); // restart
+            }
+            if (state.data === 1) { // video ended and repeat option is set true
+                elapsed = 0;
+            }
         }
+        setTimeOut(function(){
+            console.log("--");
+            console.log(elapsed);
+            elapsed +=1;
+        }, 1000);
 
         // resize handler updates width, height and offset of player after resize/init
         var resize = function() {

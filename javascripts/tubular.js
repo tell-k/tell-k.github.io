@@ -80,15 +80,17 @@
             if (state.data === 0 && options.repeat) { // video ended and repeat option is set true
                 player.seekTo(options.start); // restart
             }
-            if (state.data === 1 && options.repeatTime === elapsed) { // video ended and repeat option is set true
+            if (state.data === 1) {
                 elapsed = 0;
-                player.seekTo(options.start); // restart
             }
         }
         setInterval(function(){
             console.log("--");
             console.log(elapsed);
             elapsed +=1;
+            if (options.repeatTime === elapsed) {
+                player.seekTo(options.start);
+            }
         }, 1000);
 
         // resize handler updates width, height and offset of player after resize/init

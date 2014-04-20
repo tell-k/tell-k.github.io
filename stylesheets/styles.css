@@ -208,11 +208,9 @@ td {
 /* Wrapper */
 .wrapper {
   width:960px;
+  z-index: 101;
+  color: white !important;
 }
-.wrapper * {
-  z-index: 100;
-}
-
 
 /* Header */
 

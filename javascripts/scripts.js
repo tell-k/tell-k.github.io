@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('body').tubular({
-        videoId: 'C9CV2dnfEdU',
+        videoId: 'A5v8MJdTatw',
         repeatTime: 50,
         mute: true
     });

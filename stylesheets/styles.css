@@ -40,13 +40,13 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  color:#232323;
+  color: #FDFDFB;
   margin:36px 0 10px;
-  background-color: #171717;
 }
 
 p, ul, ol, table, dl {
   margin:0 0 22px;
+  padding: 10px;
   background-color: #171717;
 }
 
